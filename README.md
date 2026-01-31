@@ -59,6 +59,7 @@ Some useful math concept to visualize:
 <img width="725" height="518" alt="image" src="https://github.com/user-attachments/assets/959af297-e780-4bd5-ba84-7c35cb015de6" />
 <img width="725" height="531" alt="image" src="https://github.com/user-attachments/assets/be83a51e-01bc-497d-a1a3-db50bbd0a91b" />
 
+Next topic Note:
 (Visualize Over determined System & Under determined System's loss function has a bowl shaped curve either with trough or unique global minima)
 
 Over determined System:
