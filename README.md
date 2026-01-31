@@ -5,9 +5,7 @@ ML Theory and Python/PyTorch codes
 
 <img width="725" height="525" alt="image" src="https://github.com/user-attachments/assets/6738319c-a6a5-42a2-b0ed-c5943e530da5" />
 
-Best Fit line to the data using -
--> theta1 (weight1) = The slope &
--> theta0 (bias) = The y interscept OR staring value of slope
+Best Fit line to the data using -> [theta1 (weight1) = The slope] && [theta0 (bias) = The y interscept / staring value of slope]
 
 <img width="725" height="556" alt="image" src="https://github.com/user-attachments/assets/0b1c741a-e644-4726-8f4f-91c6bd995225" />
 
