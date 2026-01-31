@@ -15,6 +15,7 @@ Why Sum square error?
 3. Becomes sensitive to outliers - The squared error makes the model terrified of being far away from any single point. It forces the line to "listen" more to the points that are furthest away. This is a disadvantage with sum sq error.
 
 <img width="725" height="516" alt="image" src="https://github.com/user-attachments/assets/a9672f08-d29a-4d60-919d-3983fb5ced28" />
+
 Curve Fitting: (Nonlinear in the data and linear in the parameters)
 <img width="725" height="555" alt="image" src="https://github.com/user-attachments/assets/d9dd02a8-2b72-42aa-a87d-ef314170924b" />
 
