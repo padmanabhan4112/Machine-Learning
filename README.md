@@ -8,6 +8,7 @@ ML Theory and Python/PyTorch codes
 Best Fit line to the data using -> [theta1 (weight1) = The slope] && [theta0 (bias) = The y interscept / staring value of slope].
 
 Sum square error:
+
 <img width="725" height="556" alt="image" src="https://github.com/user-attachments/assets/0b1c741a-e644-4726-8f4f-91c6bd995225" />
 
 Why Sum square error?
