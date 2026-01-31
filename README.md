@@ -20,6 +20,7 @@ Why Sum square error?
 
 The Optimization part of Linear Regression:
 <img width="725" height="501" alt="image" src="https://github.com/user-attachments/assets/dea2bd13-8800-4d06-861a-cd1c5d7f4b4c" />
+
 Our objective would be to minimize the loss function and find optimal weights -> theta0 and theta1 for the minimized loss function.
 
 Pytorch Implementation  - Forward pass for loss computing & Backward pass for gradeint calculation:
@@ -40,5 +41,6 @@ Quardratic Fitting (Even tough the curve is not straight we can apply weights wh
 Legendre polynomials (Orthogonal polynomials):
 <img width="725" height="545" alt="image" src="https://github.com/user-attachments/assets/8fc09aa2-adf1-4741-bcad-64dbabcfc79f" />
 <img width="725" height="546" alt="image" src="https://github.com/user-attachments/assets/61fd873a-6aad-4ddf-abcf-2620dd611455" />
+
 While using higher order terms -> x = 0.99, then x^{10} ~0.904 and x^{11} ~0.895 -> To a computer trying to invert a matrix, those two columns look so similar that it starts to think they are the same column.
 Because Legendre polynomials are Orthogonal, the matrix X^T*X becomes a Diagonal Matrix (or very close to it).
