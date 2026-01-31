@@ -45,3 +45,25 @@ Legendre polynomials (Orthogonal polynomials):
 While using higher order terms -> x = 0.99, then x^{10} ~0.904 and x^{11} ~0.895 -> To a computer trying to invert a matrix, those two columns look so similar that it starts to think they are the same column.
 Because Legendre polynomials are Orthogonal, the matrix X^T*X becomes a Diagonal Matrix (or very close to it).
 
+# 2. Under determined & Over determined System
+
+<img width="725" height="526" alt="image" src="https://github.com/user-attachments/assets/5c757707-b1ae-421b-bb67-f7b73a4464b7" />
+Our Loss will be minimum only if y =/~ x*theta. Therefore the solution to the system theta can have unique, infinitely many non-unique solutions, or no solution.
+
+Some useful math concept to visualize:
+<img width="725" height="530" alt="image" src="https://github.com/user-attachments/assets/445c982c-308f-4a60-b576-20063ecc4fe3" />
+<img width="725" height="518" alt="image" src="https://github.com/user-attachments/assets/959af297-e780-4bd5-ba84-7c35cb015de6" />
+<img width="725" height="531" alt="image" src="https://github.com/user-attachments/assets/be83a51e-01bc-497d-a1a3-db50bbd0a91b" />
+
+Over determined System:
+<img width="725" height="405" alt="image" src="https://github.com/user-attachments/assets/ca2ab425-1450-4465-9615-ff3d987d51df" />
+
+Under determined System:
+<img width="725" height="533" alt="image" src="https://github.com/user-attachments/assets/b21a5097-c026-4d2d-9fd4-939a44d164ad" />
+P3: The "Minimum Norm" Solution: This specific formula represents the minimum norm solution. Among all the infinite possible solutions that exist in an under-determined system, 
+this specific $\hat{\theta}$ is the unique one that is closest to the origin (the shortest vector).
+
+
+
+
+
