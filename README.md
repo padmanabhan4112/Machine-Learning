@@ -78,8 +78,42 @@ this specific $\hat{\theta}$ is the unique one that is closest to the origin (th
 
 # 3. Regularization
 
-Regularization is a technique used to prevent overfitting—which is when a model learns the "noise" in your training data so well that it fails to predict new, unseen data accurately.
+Regularization is a technique used to prevent overfitting. 
+Regularization is a technique used in machine learning to improve model stability and prevent overfitting by penalizing the magnitude of the model's coefficients.
 
 <img width="725" height="542" alt="image" src="https://github.com/user-attachments/assets/8693f658-64bd-4b43-bbad-5035b802c7fc" />
+
+L2 Regularization:
+L2 regularization (also known as Ridge regression) is a method used to prevent model instability by penalizing the magnitude of the weights using a squared constraint.
+
+<img width="725" height="530" alt="image" src="https://github.com/user-attachments/assets/d238f167-fa98-4566-b823-f0e877d97ed7" />
+
+Why squared constraint?
+1. Easy to differentiate.
+2. The L2 Regularization term measures the "length" or magnitude of the weights.
+3. By adding this to the loss function, the model is forced to keep weights small because large weights now "cost" more in the total error calculation.
+
+<img width="725" height="534" alt="image" src="https://github.com/user-attachments/assets/e7892675-6d7a-4f1f-8ff4-97b6c912fa03" />
+
+Note: The loss minimization is calcuated with lamda value using trial and error.
+
+<img width="725" height="538" alt="image" src="https://github.com/user-attachments/assets/40597ca8-f498-4925-ba9f-c2d5862411a7" />
+
+<img width="725" height="517" alt="image" src="https://github.com/user-attachments/assets/95467d52-a694-4e10-a53c-a6071ba1c2f0" />
+Note: The constraint is represented by the circle and loss function by an ellipsoidal shape. 
+The global minimum for the ellipsoidal is at the center represented by red cross but after regularization the green cross is final optimal loss solution.
+
+L1 Regularization (Lasso Regression):
+L1 regularization adds a penalty to the loss function based on the absolute values of the model's coefficients. It discourages the model from relying on too many features, often pushing the weights of unimportant variables exactly to zero.
+<img width="725" height="530" alt="image" src="https://github.com/user-attachments/assets/13a1d2d8-6da9-43ad-ad61-b739a427661a" />
+
+<img width="725" height="531" alt="image" src="https://github.com/user-attachments/assets/98a366bf-7ec8-4cc4-a915-1a763005de4c" />
+
+<img width="725" height="521" alt="image" src="https://github.com/user-attachments/assets/4629b547-7d84-4aed-a5c9-836f6d738224" />
+Note: Here A is considered as I for easy solving. Usually the loss is computed first and later the shrinkage operator is applied.
+
+<img width="725" height="524" alt="image" src="https://github.com/user-attachments/assets/77a7a2e2-3058-4b3b-a96b-375e41158e9e" />
+
+
 
 
