@@ -76,5 +76,10 @@ P3: The "Minimum Norm" Solution: This specific formula represents the minimum no
 Among all the infinite possible solutions that exist in an under-determined system, 
 this specific $\hat{\theta}$ is the unique one that is closest to the origin (the shortest vector).
 
+# 3. Regularization
+
+Regularization is a technique used to prevent overfitting—which is when a model learns the "noise" in your training data so well that it fails to predict new, unseen data accurately.
+
+<img width="725" height="542" alt="image" src="https://github.com/user-attachments/assets/8693f658-64bd-4b43-bbad-5035b802c7fc" />
 
 
