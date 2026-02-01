@@ -52,7 +52,7 @@ Because Legendre polynomials are Orthogonal, the matrix X^T*X becomes a Diagonal
 
 <img width="725" height="526" alt="image" src="https://github.com/user-attachments/assets/5c757707-b1ae-421b-bb67-f7b73a4464b7" />
 
-Our Loss will be minimum only if y =/~ x*theta. Therefore the solution to the system theta can have unique, 
+Our Loss will be minimum only if y = ~(x*theta). Therefore the solution to the system theta can have unique, 
 infinitely many non-unique solutions, or no solution.
 
 Some useful math concept to visualize:
@@ -108,6 +108,7 @@ L1 Regularization (Lasso Regression):
 L1 regularization adds a penalty to the loss function based on the absolute values of the model's coefficients. It discourages the model from relying on too many features, often pushing the weights of unimportant variables exactly to zero.
 <img width="725" height="530" alt="image" src="https://github.com/user-attachments/assets/13a1d2d8-6da9-43ad-ad61-b739a427661a" />
 
+Gometric Interpretation:
 <img width="725" height="531" alt="image" src="https://github.com/user-attachments/assets/98a366bf-7ec8-4cc4-a915-1a763005de4c" />
 
 <img width="725" height="521" alt="image" src="https://github.com/user-attachments/assets/4629b547-7d84-4aed-a5c9-836f6d738224" />
