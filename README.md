@@ -100,6 +100,7 @@ Note: The loss minimization is calcuated with lamda value using trial and error.
 <img width="725" height="538" alt="image" src="https://github.com/user-attachments/assets/40597ca8-f498-4925-ba9f-c2d5862411a7" />
 
 <img width="725" height="517" alt="image" src="https://github.com/user-attachments/assets/95467d52-a694-4e10-a53c-a6071ba1c2f0" />
+
 Note: The constraint is represented by the circle and loss function by an ellipsoidal shape. 
 The global minimum for the ellipsoidal is at the center represented by red cross but after regularization the green cross is final optimal loss solution.
 
@@ -110,10 +111,9 @@ L1 regularization adds a penalty to the loss function based on the absolute valu
 <img width="725" height="531" alt="image" src="https://github.com/user-attachments/assets/98a366bf-7ec8-4cc4-a915-1a763005de4c" />
 
 <img width="725" height="521" alt="image" src="https://github.com/user-attachments/assets/4629b547-7d84-4aed-a5c9-836f6d738224" />
+
 Note: Here A is considered as I for easy solving. Usually the loss is computed first and later the shrinkage operator is applied.
 
 <img width="725" height="524" alt="image" src="https://github.com/user-attachments/assets/77a7a2e2-3058-4b3b-a96b-375e41158e9e" />
-
-
 
 
