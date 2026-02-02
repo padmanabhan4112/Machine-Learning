@@ -117,7 +117,7 @@ Equating the derivative to zero, we get theta_j. theta_j is equated as y_j. Shri
 <img width="725" height="530" alt="image" src="https://github.com/user-attachments/assets/13a1d2d8-6da9-43ad-ad61-b739a427661a" />
 
 Geometric Interpretation (L1 Regularization):
-Mostly the constraint is optimized at the corners.
+Mostly the constraint is optimized at the corners thus reducing the Weights/Features.
 <img width="725" height="531" alt="image" src="https://github.com/user-attachments/assets/98a366bf-7ec8-4cc4-a915-1a763005de4c" />
 
 <img width="725" height="521" alt="image" src="https://github.com/user-attachments/assets/4629b547-7d84-4aed-a5c9-836f6d738224" />
