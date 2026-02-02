@@ -117,6 +117,7 @@ Equating the derivative to zero, we get theta_j. theta_j is equated as y_j. Shri
 <img width="725" height="530" alt="image" src="https://github.com/user-attachments/assets/13a1d2d8-6da9-43ad-ad61-b739a427661a" />
 
 Gometric Interpretation (L1 Regularization):
+Mostly the constraint is optimized at the corners.
 <img width="725" height="531" alt="image" src="https://github.com/user-attachments/assets/98a366bf-7ec8-4cc4-a915-1a763005de4c" />
 
 <img width="725" height="521" alt="image" src="https://github.com/user-attachments/assets/4629b547-7d84-4aed-a5c9-836f6d738224" />
@@ -124,4 +125,5 @@ Gometric Interpretation (L1 Regularization):
 Note: Here A is considered as I for easy solving. Usually the loss is computed first and later the shrinkage operator is applied.
 
 <img width="725" height="524" alt="image" src="https://github.com/user-attachments/assets/77a7a2e2-3058-4b3b-a96b-375e41158e9e" />
+
 
