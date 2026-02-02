@@ -141,24 +141,29 @@ In Kernel Method we introduce a gaussian curve to each data points. Using Kernel
 To achieve this, we require to build the K matrix using the training data. Each entry of the K matrix K_{ij} is the Gaussian correlation between training point i and training point j, 
 so that we can compute the alpha coefficients to find the new expected output value. Finally for the test data, we multiply the alpha coefficients with Kernel function (scalar value) we get the expected output value.
 Note: We can convert the Ordinary regression formula which is based on the columns (features) of A into the Kernel method is based on the rows (samples) of A.
+
 <img width="725" height="347" alt="image" src="https://github.com/user-attachments/assets/cb59fa30-7e84-4e7d-89c4-145ba468f1a8" />
 
 <img width="725" height="526" alt="image" src="https://github.com/user-attachments/assets/eae61486-6a21-43be-be17-34071c00eb7d" />
 
 <img width="725" height="529" alt="image" src="https://github.com/user-attachments/assets/00c32438-d906-4bf5-a8d7-507016ac8451" />
+
 Note: We can convert the Ordinary regression which is based on the columns (features) of A formulation into the Kernel method is based on the rows (samples) of A.
 
 <img width="725" height="538" alt="image" src="https://github.com/user-attachments/assets/80c22292-04c2-413d-92c1-ddc2617be6ae" />
 
 <img width="725" height="518" alt="image" src="https://github.com/user-attachments/assets/0d32e12a-481f-41bf-9d6b-2ff246706b1e" />
+
 Note: This is how a Kernel fucntion is defined.
 
 <img width="725" height="486" alt="image" src="https://github.com/user-attachments/assets/1f5357a7-64dd-4b54-b59a-9afdc5a9fe3a" />
+
 Note : A*A(T) is replaced by Kernel matrix K.  
 
 <img width="725" height="529" alt="image" src="https://github.com/user-attachments/assets/9761ada6-2ca0-4f2a-a3a9-a6fdcaadd805" />
 
 <img width="725" height="527" alt="image" src="https://github.com/user-attachments/assets/ed87db7b-4aa5-4684-946e-9abd10ccb5a1" />
+
 
 
 
