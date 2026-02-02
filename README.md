@@ -72,7 +72,7 @@ Under determined System:
 
 <img width="725" height="533" alt="image" src="https://github.com/user-attachments/assets/b21a5097-c026-4d2d-9fd4-939a44d164ad" />
 
-P3: The "Minimum Norm" Solution: This specific formula represents the minimum norm solution. 
+P3: The "Minimum Norm" Solution - This specific formula represents the minimum norm solution. 
 Among all the infinite possible solutions that exist in an under-determined system, 
 this specific $\hat{\theta}$ is the unique one that is closest to the origin (the shortest vector).
 
@@ -106,6 +106,14 @@ The global minimum for the ellipsoidal is at the center represented by red cross
 
 L1 Regularization (Lasso Regression):
 L1 regularization adds a penalty to the loss function based on the absolute values of the model's coefficients. It discourages the model from relying on too many features, often pushing the weights of unimportant variables exactly to zero.
+First the loss function and required weights are computed and later the respective data values and traget values are compare with the penalty lambda, if the respective compared values are not in range of penalty defined then the weights are squased to zero. 
+
+Intuition of L1 Regularization: 
+The Squared Error part of the loss is calculated and to minimize this with respect to a single weight theta_j, we take the derivative wrt to theta_j.
+Equating the derivative to zero, we get theta_j. theta_j is equated as y_j. Shrinkage operation is applied to y_j and the not potential/if in the penalty range y_j are squashed to zero.
+<img width="725" height="651" alt="image" src="https://github.com/user-attachments/assets/bcfc8a57-a5fa-4c3c-ba79-1870a88c97c1" />
+<img width="725" height="342" alt="image" src="https://github.com/user-attachments/assets/06351bdb-3dfa-4be9-a1ff-99665a56d6f7" />
+
 <img width="725" height="530" alt="image" src="https://github.com/user-attachments/assets/13a1d2d8-6da9-43ad-ad61-b739a427661a" />
 
 Gometric Interpretation (L1 Regularization):
