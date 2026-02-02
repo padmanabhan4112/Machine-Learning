@@ -122,7 +122,7 @@ Mostly the constraint is optimized at the corners.
 
 <img width="725" height="521" alt="image" src="https://github.com/user-attachments/assets/4629b547-7d84-4aed-a5c9-836f6d738224" />
 
-Note: Here A is considered as I for easy solving. Usually the loss is computed first and later the shrinkage operator is applied.
+Note: Here A is considered as I (Identity matrix) for easy solving. Usually the loss is computed first and later the shrinkage operator is applied.
 
 <img width="725" height="524" alt="image" src="https://github.com/user-attachments/assets/77a7a2e2-3058-4b3b-a96b-375e41158e9e" />
 
