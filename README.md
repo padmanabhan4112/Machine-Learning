@@ -114,7 +114,7 @@ Equating the derivative to zero, we get theta_j. theta_j is equated as y_j. Shri
 
 <img width="725" height="651" alt="image" src="https://github.com/user-attachments/assets/bcfc8a57-a5fa-4c3c-ba79-1870a88c97c1" />
 <img width="725" height="342" alt="image" src="https://github.com/user-attachments/assets/06351bdb-3dfa-4be9-a1ff-99665a56d6f7" />
-<img width="642" height="643" alt="image" src="https://github.com/user-attachments/assets/4af7e60b-0072-4022-9ced-9cb53ea1e267" />
+<img width="725" height="643" alt="image" src="https://github.com/user-attachments/assets/4af7e60b-0072-4022-9ced-9cb53ea1e267" />
 
 <img width="725" height="530" alt="image" src="https://github.com/user-attachments/assets/13a1d2d8-6da9-43ad-ad61-b739a427661a" />
 
@@ -127,3 +127,38 @@ Mostly the constraint is optimized at the corners thus reducing the Weights/Feat
 Note: Here A is considered as I (Identity matrix) for easy solving. Usually the loss is computed first and later the shrinkage operator is applied.
 
 <img width="725" height="524" alt="image" src="https://github.com/user-attachments/assets/77a7a2e2-3058-4b3b-a96b-375e41158e9e" />
+
+# 4. Kernal Method
+
+In Kernel method, instead of picking a line / a quadratic equation, we pick a kernel.
+A kernel is a measure of distance between training samples.
+Kernel method buys us the ability to handle nonlinearity.
+Ordinary regression is based on the columns (features) of A. Kernel method is based on the rows (samples) of A.
+
+<img width="725" height="517" alt="image" src="https://github.com/user-attachments/assets/d56431cb-b4da-44ee-8273-e6fcf9826e24" />
+
+In Kernel Method we introduce a gaussian curve to each data points. Using Kernel function we find the correlation between given test data point and existing trained data points (scalar value).
+To achieve this, we require to build the K matrix using the training data. Each entry of the K matrix K_{ij} is the Gaussian correlation between training point i and training point j, 
+so that we can compute the alpha coefficients to find the new expected output value. Finally for the test data, we multiply the alpha coefficients with Kernel function (scalar value) we get the expected output value.
+Note: We can convert the Ordinary regression formula which is based on the columns (features) of A into the Kernel method is based on the rows (samples) of A.
+<img width="725" height="347" alt="image" src="https://github.com/user-attachments/assets/cb59fa30-7e84-4e7d-89c4-145ba468f1a8" />
+
+<img width="725" height="526" alt="image" src="https://github.com/user-attachments/assets/eae61486-6a21-43be-be17-34071c00eb7d" />
+
+<img width="725" height="529" alt="image" src="https://github.com/user-attachments/assets/00c32438-d906-4bf5-a8d7-507016ac8451" />
+Note: We can convert the Ordinary regression which is based on the columns (features) of A formulation into the Kernel method is based on the rows (samples) of A.
+
+<img width="725" height="538" alt="image" src="https://github.com/user-attachments/assets/80c22292-04c2-413d-92c1-ddc2617be6ae" />
+
+<img width="725" height="518" alt="image" src="https://github.com/user-attachments/assets/0d32e12a-481f-41bf-9d6b-2ff246706b1e" />
+Note: This is how a Kernel fucntion is defined.
+
+<img width="725" height="486" alt="image" src="https://github.com/user-attachments/assets/1f5357a7-64dd-4b54-b59a-9afdc5a9fe3a" />
+Note : A*A(T) is replaced by Kernel matrix K.  
+
+<img width="725" height="529" alt="image" src="https://github.com/user-attachments/assets/9761ada6-2ca0-4f2a-a3a9-a6fdcaadd805" />
+
+<img width="725" height="527" alt="image" src="https://github.com/user-attachments/assets/ed87db7b-4aa5-4684-946e-9abd10ccb5a1" />
+
+
+
