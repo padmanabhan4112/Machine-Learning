@@ -111,6 +111,7 @@ First the loss function and required weights are computed and later the respecti
 Intuition of L1 Regularization: 
 The Squared Error part of the loss is calculated and to minimize this with respect to a single weight theta_j, we take the derivative wrt to theta_j.
 Equating the derivative to zero, we get theta_j. theta_j is equated as y_j. Shrinkage operation is applied to y_j and the not potential/if in the penalty range y_j are squashed to zero.
+
 <img width="725" height="651" alt="image" src="https://github.com/user-attachments/assets/bcfc8a57-a5fa-4c3c-ba79-1870a88c97c1" />
 <img width="725" height="342" alt="image" src="https://github.com/user-attachments/assets/06351bdb-3dfa-4be9-a1ff-99665a56d6f7" />
 <img width="642" height="643" alt="image" src="https://github.com/user-attachments/assets/4af7e60b-0072-4022-9ced-9cb53ea1e267" />
@@ -126,4 +127,3 @@ Mostly the constraint is optimized at the corners thus reducing the Weights/Feat
 Note: Here A is considered as I (Identity matrix) for easy solving. Usually the loss is computed first and later the shrinkage operator is applied.
 
 <img width="725" height="524" alt="image" src="https://github.com/user-attachments/assets/77a7a2e2-3058-4b3b-a96b-375e41158e9e" />
-
